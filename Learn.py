@@ -109,6 +109,14 @@ print(f"x is y: {x is y}")  # Output: True (same memory location)
 print(f"x is z: {x is z}")  # Output: False (different memory location)
 print(f"x is not z: {x is not z}")  # Output: True
 
+# To create a python constant
+#Example 1
+from typing import final
+VERSION: final[str]="vics"
+PI: final[float]=3.1415
+#syntax (Variable_name: final[Datatype] = Value)
+#Also to know a constant in python the variable name could be writen in capital i.e
+VERSION = "Vics"
 
 
 
