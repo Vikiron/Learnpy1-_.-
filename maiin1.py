@@ -1,3 +1,5 @@
+
+#This is a code used to culculate the number of days spent from the start of the year
 # Import necessary libraries
 import pandas as pd
 from datetime import datetime
